@@ -28,6 +28,7 @@ document.querySelectorAll('.btn').forEach(b=>{
     b.style.setProperty('--my',((e.clientY-r.top)/r.height*100)+'%');
   });
 });
+
 themeBtn.addEventListener('click',()=>{
   if(themeMode==='light'){
     riseOut(ttSun);
